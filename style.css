@@ -1,0 +1,256 @@
+body {
+    margin: 0%;
+}
+
+/*----presentation section-----*/
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-image: url(assets/Group\ 4.svg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.webinar {
+    font-family: SharpSansNo1-Bold;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 0.93px;
+    text-align: center;
+    line-height: 15px;
+    padding: 12.5px 20px 12.5px 20px;
+    position: relative;
+    top: 82px;
+    background-color: #e75d00;
+}
+
+.title {
+font-family: SharpSansNo1-Bold;
+font-size: 40px;
+color: #02363D;
+text-align: center;
+line-height: 52px;
+width: 960px;
+height: 156px;
+position: absolute;
+top: 133px;
+left: 240px;
+}
+
+.date {
+font-family: SharpSansNo1-Semibold;
+font-size: 21px;
+color: #00373E;
+text-align: center;
+line-height: 40px;
+width: 565px;
+height: 61px;
+opacity: 100%;
+position: absolute;
+top: 245px;
+}
+
+/*---Body section---*/
+
+.all__body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    position: relative;
+    left: 155px;
+    top: 95px;
+}
+.sponsorsImg {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+    justify-content: space-around;
+}
+.sponsorsImg2 {
+    position: relative;
+    bottom: 93px;
+}
+.img__sponsor {
+    margin-right: 15px;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 565px;
+    height: 897px;
+}
+
+.aboutEvent, .name__speaker ,
+.title__speaker {
+    font-family: ProximaNova-Regular;
+    font-size: 16px;
+    color: #405457;
+    letter-spacing: 0;
+    line-height: 0%;
+    
+} 
+
+.aboutEvent {
+    line-height: 28px;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.speaker__id {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 29px;
+}
+
+/*---Form section ---*/
+
+.inscriptionSection {
+    height: 822px;
+    width: 463px;
+    background: #f8f9f9;
+    opacity: 100%;
+    position: absolute;
+    top: 422px;
+    left: 821px;
+}
+.form {
+    position: relative;
+    left: 48px;
+}
+.form_group {
+    margin-top: 25px;
+}
+.text__inscription {
+    font-family: SharpSansNo1-Semibold;
+    font-size: 20px;
+    color: #02363D;
+    text-align: center;
+    line-height: 29px;
+}
+.form_label {
+    display: block;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+    font-family: SharpSansNo1-Semibold;
+    font-size: 14px;
+    color: #02363D;
+}
+.form_input {
+    width: 368px;
+    height: 45px;
+    line-height: 45px;
+    transition: 0.6s ease all;
+    background: #FFFFFF;
+    border: 1px solid #68737D;
+}
+.form_input:focus {
+    border: 1px solid #02363D;
+    outline: none;
+    box-shadow: 1.5px 0px 5px rgba(163,163,163,0.6);
+}
+
+.form_fault_input{
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: none;
+}
+.form_fault_input-activ {
+    display: block;
+}
+.fa-times-circle {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    opacity: 0;
+} 
+
+.form_btn {
+    width: 370px;
+    height: 50px;
+    background: #02363D;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 1s ease all;
+    font-family: SharpSansNo1-Semibold;
+    font-size: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 35px;
+}
+.form_btn::hove {
+    box-shadow: 3px 0px 30px rgba(163,163,163,0.4);
+}
+
+.msj__form {
+    grid-column: span 2;
+    height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+.msj__form-activ {
+    display: block;
+}
+.msj_success_form {
+    font-size: 14px;
+    color: #f2f2f2;
+    font-weight: 500;
+    display: none;
+}
+.msj_success_form-activ {
+    display: block;
+}
+
+
+footer {
+    width: 100%;
+    height: 160px;
+    background: #f8f9f9;
+    position: relative;
+}
+
+.copyr {
+    font-family: ProximaNova-Regular;
+    font-size: 16px;
+    color: #405457;
+    letter-spacing: 0;
+    position: relative;
+    top: 38px;
+    left: 149px;
+}
+
+hr {
+    width: 1050px;
+    position: relative;
+    top: 70px;
+    color: #e6e4e4;
+    opacity: 40%;
+}
