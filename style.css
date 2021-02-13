@@ -1,5 +1,7 @@
 body {
     margin: 0%;
+    width: 100%;
+
 }
 
 /*----presentation section-----*/
@@ -78,6 +80,7 @@ top: 245px;
     align-content: center;
     align-items: center;
     margin-bottom: 37px;
+    margin-right: 15px;
     justify-content: space-around;
 }
 .sponsorsImg2 {
@@ -181,13 +184,6 @@ top: 245px;
 .form_fault_input-activ {
     display: block;
 }
-.fa-times-circle {
-    position: absolute;
-    right: 10px;
-    bottom: 15px;
-    z-index: 100;
-    opacity: 0;
-} 
 
 .form_btn {
     width: 370px;
@@ -208,21 +204,27 @@ top: 245px;
 }
 
 .msj__form {
-    grid-column: span 2;
-    height: 45px;
+    
 	line-height: 45px;
-	background: #F66060;
-	padding: 0 15px;
-	border-radius: 3px;
+	background: #f78282;
+    padding: 0 5px 0 5px;
+	border-radius: 2px;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
 	display: none;
 }
 .msj__form-activ {
     display: block;
 }
 .msj_success_form {
-    font-size: 14px;
-    color: #f2f2f2;
-    font-weight: 500;
+    font-family: SharpSansNo1-Semibold;
+    font-size: 13px;
+    text-align: center;
+    color: #02353C;
+    letter-spacing: 0;
+    position: relative;
+    right: 45px;
     display: none;
 }
 .msj_success_form-activ {
