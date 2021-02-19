@@ -1,7 +1,6 @@
 body {
     margin: 0%;
     width: 100%;
-
 }
 
 /*----presentation section-----*/
@@ -11,7 +10,7 @@ body {
     align-content: center;
     align-items: center;
     background-image: url(assets/Group\ 4.svg);
-    width: 100%;
+    width: 1349px;
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +87,7 @@ top: 245px;
     bottom: 93px;
 }
 .img__sponsor {
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 
@@ -169,8 +168,25 @@ top: 245px;
     transition: 0.6s ease all;
     background: #FFFFFF;
     border: 1px solid #68737D;
+    font-family: SharpSansNo1-Semibold;
+    font-size: 15px;
 }
 .form_input:focus {
+    border: 1px solid #02363D;
+    outline: none;
+    box-shadow: 1.5px 0px 5px rgba(163,163,163,0.6);
+}
+
+.seleccion__pais {
+    width: 368px;
+    height: 45px;
+    line-height: 45px;
+    transition: 0.6s ease all;
+    background: #FFFFFF;
+    border: 1px solid #68737D;
+}
+
+.seleccion__pais:focus {
     border: 1px solid #02363D;
     outline: none;
     box-shadow: 1.5px 0px 5px rgba(163,163,163,0.6);
@@ -255,4 +271,15 @@ hr {
     top: 70px;
     color: #e6e4e4;
     opacity: 40%;
+}
+
+.mediaSocial {
+    position: absolute;
+    right: 150px;
+}
+
+.icon_mediaSocial {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
 }

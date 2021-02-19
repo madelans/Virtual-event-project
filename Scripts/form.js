@@ -15,7 +15,8 @@ const fields = {
 	lastname: false,
 	job: false,
 	email: false,
-	num: false
+	num: false,
+	pais: false
 }
 
 const formValidate = (e) => {
@@ -34,6 +35,9 @@ const formValidate = (e) => {
         break;
         case "num":
 			validateField(expressions.num, e.target, 'num');
+		break;
+		case "pais":
+			validateField(expressions.num, e.target, 'pais');
 		break;
 	}
 }
