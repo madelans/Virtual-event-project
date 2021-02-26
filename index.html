@@ -85,9 +85,12 @@
         </section>
 
        <!--Form section-->
+    
          <section id="inscriptionSection" class="inscriptionSection">
              <h1 class="text__inscription" id="text__inscription">¡Inscríbete y reserva tu lugar ahora!</h1>
             <form action="" class="form" id="form">
+
+             <!--Name group-->    
                 <div class="form_group" id="name__group">
                       <label for="name" class="form_label">Nombre</label>
                    <div class="group_form_input">
@@ -108,7 +111,7 @@
 
              <!--Email Group-->
              <div class="form_group" id="email__group">
-               <label for="email" class="form_label">Correo electrónico del trabajo</label>
+               <label for="email" class="form_label" id="email">Correo electrónico del trabajo</label>
                 <div class="group_form_input">
                   <input type="text" class="form_input" name="email" id="email">
                   <p class="form_fault_input">Es necesario el correo electrónico para poder inscribirse.</p>
@@ -386,13 +389,13 @@
          <div class="msj__form" id="msj__form"><b>Error:</b>Por favor rellena todos los campos para enviar el formulario.</div>
 
          <!--Button group-->
-         <div class="form_group_btn  form_group_btn-submit" id="form_group_btn">
+          <div class="form_group_btn  form_group_btn-submit" id="form_group_btn">
              <button type="submit" class="form_btn" onclick="save_data()">Inscríbete</button>
              <div class="msj_success_form" id="msj_success_form">
                  <h3>Gracias por su interes!</h3>
                  <p>Nos comunicaremos contigo a la brevedad por el email que llenaste en el formulario. </p>
              </div>
-         </div>
+          </div>
         </form>
          </section>
 
