@@ -2,11 +2,11 @@ const form = document.getElementById('form');
 const inputs = document.querySelectorAll('#form input');
 
 const expressions  = {
-    name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+    name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
     lastname: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
     job: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-    num: /^\d{7,14}$/ // 7 a 14 numeros.
+    num: /^\d{7,14}$/ 
     
 }
 

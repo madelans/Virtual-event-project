@@ -1,7 +1,7 @@
 
 const names = document.getElementById("name");
 const lastNames = document.getElementById("lastname");
-const email = document.getElementById("email");
+const emails = document.getElementById("email");
 const pais = document.getElementById("pais");
 const num = document.getElementById("num");
 const job = document.getElementById("job");
