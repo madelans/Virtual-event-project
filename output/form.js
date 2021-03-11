@@ -67,10 +67,13 @@ form.addEventListener('submit', function (e) {
 
   if (fields.name && fields.lastname && fields.job && fields.email && fields.num) {
     form.reset();
+   // var elem = document.querySelector("#msj_success_form");
+   // elem.style.display = "block";
     document.getElementById('msj_success_form').classList.add('msj_success_form-activ');
     setTimeout(function () {
       document.getElementById('msj_success_form').classList.remove('msj_success_form-activ');
-    }, 5000);
+     // elem.style.display = "none";
+    }, 10000);
     document.getElementById('msj__form').classList.remove('msj__form-activ');
     ;
   } else {
