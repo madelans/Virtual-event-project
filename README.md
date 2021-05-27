@@ -5,11 +5,7 @@ It is a Webpage for a virtual event in order to provide information to users and
 ## LocalStorage
 This project used LocalStorage as a database to save the data of the participants entered in the form stored locally in the navigator .
 
-## Installation
-To install and run this proyect just type and execute
-```bash
-npm install
-npm run
-```
+## Page 
+You could view the project in this link https://madelans.github.io/Virtual-event-project/
 
 ## Thank you for read me :)
